@@ -4,8 +4,7 @@
   padding: 0;
 }
 body {
-  width: 75%;
-  margin: auto;
+  margin: 0 10%;
   background-color: black;
 }
 header{
@@ -14,11 +13,13 @@ header{
 header section {
   display: flex;
 }
-
+header section figure{
+  width: 100%;
+  
+}
 header section figure img {
-  width: 350px;
-  margin-top: 15%;
-  margin-left: 25%;
+  width: 90%;
+  margin: 5%;
 }
 header section figcaption {
   width: 100%;
@@ -33,9 +34,8 @@ header section figcaption h2 {
   text-align: center;
 }
 main {
-  padding-top: 5%;
+  padding-top: 1%;
   background-color:aliceblue;
-
 }
 
 
@@ -56,7 +56,7 @@ main section h4{
     
 }
 footer{
-  background-color: white;
+  background-color: aliceblue;
   padding-top: 2%;
   padding-bottom: 3%;
 }
