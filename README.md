@@ -1,2 +1,2 @@
 # Argentina-Programa-4.0
-Ce para trabajo integrador de Fron end.
+CV para trabajo integrador de Fron end.
