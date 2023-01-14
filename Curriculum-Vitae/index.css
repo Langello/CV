@@ -1,3 +1,63 @@
-*{
-    font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
 }
+body {
+  width: 75%;
+  margin: auto;
+ background-color: black;
+}
+header{
+    background-color: white;
+}
+header section {
+  display: flex;
+}
+
+header section figure img {
+  width: 300px;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+header section figcaption {
+  width: 100%;
+  margin: auto;
+}
+header section figcaption h1 {
+  font-size: 250%;
+  text-align: center;
+  margin-bottom: 3%;
+}
+header section figcaption h2 {
+  text-align: center;
+}
+main {
+  padding-top: 5%;
+  background-color: white;
+}
+main section {
+  margin: 2%;
+}
+
+main section h3 {
+  text-align: center;
+  margin: 2%;
+  background-color: blue;
+  color: white;
+}
+main section li{
+    margin-left: 3%;
+    padding: 0.5%;
+    list-style: none;
+}
+main section h4{
+    margin-left: 3%;
+    padding: 0.5%;
+    
+}
+
+/* hacer el espacio de los h4
+/* crear el footer con los datos con flex 
+/* mejorar el espacio de los iconos al final
+/* agregarle fondo azul oscuro y cambiar el color de letra a blanco
