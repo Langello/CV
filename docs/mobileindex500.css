@@ -4,11 +4,10 @@
   padding: 0;
 }
 body {
-  margin: 0 10%;
-  background-color: black;
+  background-color:black;
 }
 header{
-    background-color: aliceblue;
+  background-color: aliceblue;
 }
 header section {
   display: flex;
