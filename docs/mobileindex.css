@@ -7,12 +7,9 @@
 header{
   background-color: aliceblue;
 }
-header section {
-  display: flex;
-}
 header section figure{
-  width: 100%;
-  
+  width: 80%;
+  margin: auto;
 }
 header section figure img {
   width: 90%;
