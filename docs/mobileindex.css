@@ -40,7 +40,7 @@ main {
 main section h3 {
   text-align: center;
   margin: 2%;
-  background-color: rgb(35, 97, 244);
+  background-color: rgb(11, 7, 108);
   color: white;
 }
 main section li{
@@ -58,12 +58,7 @@ footer{
   padding-top: 2%;
   padding-bottom: 3%;
 }
-footer h3{
-  text-align: center;
-  background-color: rgb(35, 97, 244);
-  color: white;
-  margin: 0 2% 2% 2%;
-}
+
 footer ul {
   margin: 0 2%;
   padding: 0.5%;
@@ -77,7 +72,7 @@ footer ul li{
 
 footer ul li a{
   text-decoration: none;
-  color: black;
+  color: rgb(11, 7, 108);
 }
 footer ul li a span{
   display: none;
