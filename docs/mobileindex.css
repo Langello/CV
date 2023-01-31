@@ -21,6 +21,9 @@ body{
 header{
   background-color: aliceblue;
 }
+header section{
+  display: block;
+}
 header section figure{
   width: 80%;
   margin: auto;
@@ -34,14 +37,13 @@ header section figcaption {
   margin: auto;
 }
 header section figcaption h1 {
-  font-size: 100%;
+  font-size: 200%;
   text-align: center;
   margin-bottom: 3%;
 }
 header section figcaption h2 {
   text-align: center;
-  font-size: 80%;
-  color: rgb(11, 7, 108);
+  font-size: 120%;
 }
 main {
   padding-top: 1%;
