@@ -60,6 +60,7 @@ main section h3 {
   color: white;
   cursor: pointer;
   padding: 1%;
+  font-size: 120%;
 }
 main section h3:hover {
   background-color: rgb(68, 71, 251);
@@ -69,11 +70,12 @@ main section li{
     margin-left: 3%;
     padding: 0.5%;
     list-style: none;
+    font-size: 120%;
 }
 main section h4{
     margin-left: 3%;
     padding: 0.5%;
-    
+    font-size: 120%;
 }
 footer{
   background-color: aliceblue;
