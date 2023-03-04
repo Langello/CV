@@ -1,3 +1,4 @@
+@media (min-width:800px){
 * {
   font-family: "Roboto", sans-serif;
   margin: 0;
@@ -103,4 +104,220 @@ footer ul li a{
 footer ul li a:hover {
   color: rgb(68, 71, 251);
   transition: background-color 0.3s ease-in;
+}
+}
+@media (max-width:800px){
+  * {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, main, footer{
+    animation: text-appear 0.3s ease-in-out;
+    color: rgb(11, 7, 108);
+  }
+  @keyframes text-appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  body{
+    background-color: aliceblue;
+  }
+  header{
+    background-color: aliceblue;
+  }
+  header section {
+    display: flex;
+  }
+  header section figure{
+    width: 100%;
+    
+  }
+  header section figure img {
+    width: 90%;
+    margin: 5%;
+  }
+  header section figcaption {
+    width: 100%;
+    margin: auto;
+  }
+  header section figcaption h1 {
+    font-size: 250%;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  header section figcaption h2 {
+    font-size: 100%;
+    text-align: center;
+  }
+  main {
+    padding-top: 1%;
+    background-color:aliceblue;
+  }
+  article{
+    display: none;
+  }
+  
+  main section h3 {
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(11, 7, 108);
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    font-size: 120%;
+  }
+  main section h3:hover {
+    background-color: rgb(68, 71, 251);
+    transition: background-color 0.3s ease-in;
+  }
+  main section li{
+      margin-left: 3%;
+      padding: 0.5%;
+      list-style: none;
+      font-size: 120%;
+  }
+  main section h4{
+      margin-left: 3%;
+      padding: 0.5%;
+      font-size: 120%;
+  }
+  footer{
+    background-color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  
+  footer ul {
+    margin: 0 2%;
+    padding: 0.5%;
+    list-style: none;
+    display: flex;
+    text-align: center;
+  }
+  footer ul li{
+    margin: auto;
+  }
+  
+  footer ul li a{
+    text-decoration: none;
+    color: rgb(11, 7, 108);
+  }
+  footer ul li a:hover {
+    color: rgb(68, 71, 251);
+    transition: background-color 0.3s ease-in;
+  }
+
+}
+
+@media (max-width: 520px){
+  * {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, main, footer{
+    animation: text-appear 0.3s ease-in-out;
+    color: rgb(11, 7, 108);
+  }
+  @keyframes text-appear {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  body{
+    background-color: aliceblue;
+  }
+  header{
+    background-color: aliceblue;
+  }
+  header section{
+    display: block;
+  }
+  header section figure{
+    width: 80%;
+    margin: auto;
+  }
+  header section figure img {
+    width: 90%;
+    margin: 5%;
+  }
+  header section figcaption {
+    width: 100%;
+    margin: auto;
+  }
+  header section figcaption h1 {
+    font-size: 200%;
+    text-align: center;
+    margin-bottom: 3%;
+  }
+  header section figcaption h2 {
+    text-align: center;
+    font-size: 120%;
+  }
+  main {
+    padding-top: 1%;
+    background-color:aliceblue;
+  }
+  article{
+    display: none;
+  }
+  
+  main section h3 {
+    text-align: center;
+    margin: 2%;
+    background-color: rgb(11, 7, 108);
+    color: white;
+    padding: 1%;
+  }
+  main section h3:hover {
+    background-color: rgb(68, 71, 251);
+    transition: background-color 0.3s ease-in;
+  }
+  main section li{
+      margin-left: 3%;
+      padding: 0.5%;
+      list-style: none;
+  }
+  main section h4{
+      margin-left: 3%;
+      padding: 0.5%;
+      
+  }
+  footer{
+    background-color: aliceblue;
+    padding-top: 2%;
+    padding-bottom: 3%;
+  }
+  
+  footer ul {
+    margin: 0 2%;
+    padding: 0.5%;
+    list-style: none;
+    display: flex;
+    text-align: center;
+  }
+  footer ul li{
+    margin: auto;
+  }
+  
+  footer ul li a{
+    text-decoration: none;
+    color: rgb(11, 7, 108);
+  }
+  footer ul li a:hover {
+    color: rgb(68, 71, 251);
+    transition: background-color 0.3s ease-in;
+  }
+  footer ul li a span{
+    display: none;
+  }
+
 }
