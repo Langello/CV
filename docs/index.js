@@ -33,17 +33,7 @@ function mostrarOcultarExperienciaLaboral() {
     );
 }
 
-let cursosVisible = false;
-function mostrarOcultarCursos() {
 
-    cursosVisible == false? (
-        document.getElementById("cursos").style.display= "inline",
-        cursosVisible = true
-    ):(
-        document.getElementById("cursos").style.display = "none",
-        cursosVisible = false
-    );
-}
 
 let idiomasVisible = false;
 function mostrarOcultarIdiomas() {
