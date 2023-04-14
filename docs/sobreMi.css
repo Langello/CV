@@ -27,6 +27,11 @@ article p {
   font-size: large;
   font-weight:bold;
 }
+section a{
+  text-decoration: none;
+}
+
+
 
 main {
   padding-top: 1%;
@@ -40,6 +45,13 @@ main section h3 {
   color: white;
   padding: 1%;
   font-size: 150%;
+}
+#cv{
+  margin-bottom: 0%;
+}
+#cv:hover{
+  background-color: rgb(68, 71, 251);
+  transition: background-color 0.3s ease-in;
 }
 
 
