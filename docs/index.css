@@ -103,14 +103,14 @@ footer ul li a:hover {
   color: rgb(68, 71, 251);
   transition: background-color 0.3s ease-in;
 }
-#miPagina{
+.miPagina{
   color: rgb(11, 7, 108);
 }
-#miPagina:hover{
+.miPagina:hover{
   color: rgb(68, 71, 251);
   transition: background-color 0.3s ease-in;
 }
-#miPagina i{
+.miPagina i{
   margin-left: 1%;
 }
 @media (max-width:1050px){
