@@ -34,6 +34,7 @@ header section figure{
 }
 header section figure img {
   width: 100%;
+  border-radius: 10%;
 }
 header section figcaption {
   width: 100%;
@@ -62,6 +63,7 @@ main section h3 {
   cursor: pointer;
   padding: 1%;
   font-size: 150%;
+  border-radius: 10px;
 }
 main section h3:hover {
   background-color: rgb(68, 71, 251);
