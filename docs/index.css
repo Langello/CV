@@ -67,11 +67,21 @@ main section h3:hover {
   background-color: rgb(68, 71, 251);
   transition: background-color 0.3s ease-in;
 }
+main section a {
+  text-decoration: none;
+}
 main section li{
     margin-left: 3%;
     padding: 0.5%;
     list-style: none;
     font-size: 150%;
+}
+
+main section li a {
+  color: rgb(11, 7, 108);
+}
+main section li a i{
+  margin-left: 1%;
 }
 main section h4{
     margin-left: 3%;
@@ -103,16 +113,7 @@ footer ul li a:hover {
   color: rgb(68, 71, 251);
   transition: background-color 0.3s ease-in;
 }
-.miPagina{
-  color: rgb(11, 7, 108);
-}
-.miPagina:hover{
-  color: rgb(68, 71, 251);
-  transition: background-color 0.3s ease-in;
-}
-.miPagina i{
-  margin-left: 1%;
-}
+
 @media (max-width:1050px){
 
   body{
@@ -193,7 +194,6 @@ footer ul li a:hover {
   }
 
 }
-
 @media (max-width: 520px){
 
   body{
