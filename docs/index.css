@@ -128,10 +128,12 @@ footer ul li a:hover {
 /*CSS para sobreMi.html*/
 .sobreMi h3{
   cursor: auto;
+  justify-content: center;
 }
 .sobreMi h3:hover{
   background-color: rgb(11, 7, 108);
 }
+
 .sobreMi article{
   display: inline;
 }
