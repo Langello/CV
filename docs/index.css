@@ -27,30 +27,34 @@ header{
 }
 header section {
   display: flex;
+  align-items: center;
+  margin-top: 1%;
 }
 header section figure{
-  width: 35%;
-  margin: 3% 0% 0% 10%; 
+  width: 50%;
+  height:min-content;
+  margin-left: 5%;
 }
 header section figure img {
-  width: 100%;
+  width: 97%;
   border-radius: 10%;
+  border: 5px solid;
 }
 header section figcaption {
   width: 100%;
-  margin: auto;
+  height: 300px;
+  height: min-content;
+  margin-right: 5%;
 }
 header section figcaption h1 {
   font-size: 300%;
   text-align: center;
-  margin: 3%;
 }
 header section figcaption h2 {
   font-size: 200%;
   text-align: center;
 }
 main {
-  padding-top: 1%;
   background-color:rgb(255, 255, 255);
 }
 
@@ -138,7 +142,7 @@ footer ul li a:hover {
   display: inline;
 }
 .sobreMi article p{
-  margin: 2% 10%;
+  margin: 2% 3%;
   text-align: justify;
   font-size: 150%;
   font-weight:bold;
