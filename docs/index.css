@@ -5,7 +5,7 @@
 }
 header, main, footer{
   animation: text-appear 0.3s ease-in-out;
-  color: rgb(11, 7, 108);
+  color: rgb(0, 0, 0);
 }
 @keyframes text-appear {
   from {
@@ -17,13 +17,13 @@ header, main, footer{
 }
 body {
   margin: 0 10%;
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
 }
 article{
   display: none;
 }
 header{
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
 }
 header section {
   display: flex;
@@ -51,7 +51,7 @@ header section figcaption h2 {
 }
 main {
   padding-top: 1%;
-  background-color:aliceblue;
+  background-color:rgb(255, 255, 255);
 }
 
 
@@ -59,7 +59,7 @@ main section h3 {
   display: flex;
   justify-content: space-between;
   margin: 2%;
-  background-color: rgb(11, 7, 108);
+  background-color: rgb(0, 0, 0);
   color: white;
   cursor: pointer;
   padding: 1%;
@@ -67,7 +67,7 @@ main section h3 {
   border-radius: 10px;
 }
 main section h3:hover {
-  background-color: rgb(68, 71, 251);
+  background-color: rgb(51, 51, 51);
   transition: background-color 0.3s ease-in;
 }
 main section h3 span{
@@ -89,7 +89,7 @@ main section li{
 }
 
 main section li a {
-  color: rgb(11, 7, 108);
+  color: rgb(0, 0, 0);
 }
 main section li a i{
   margin-left: 1%;
@@ -100,7 +100,7 @@ main section h4{
     font-size: 150%;
 }
 footer{
-  background-color: aliceblue;
+  background-color: rgb(255, 255, 255);
   padding-top: 2%;
   padding-bottom: 3%;
 }
@@ -118,10 +118,10 @@ footer ul li{
 
 footer ul li a{
   text-decoration: none;
-  color: rgb(11, 7, 108);
+  color: rgb(0, 0, 0);
 }
 footer ul li a:hover {
-  color: rgb(68, 71, 251);
+  color: rgb(51, 51, 51);
   transition: background-color 0.3s ease-in;
 }
 
@@ -131,7 +131,7 @@ footer ul li a:hover {
   justify-content: center;
 }
 .sobreMi h3:hover{
-  background-color: rgb(11, 7, 108);
+  background-color: rgb(0, 0, 0);
 }
 
 .sobreMi article{
@@ -140,14 +140,14 @@ footer ul li a:hover {
 .sobreMi article p{
   margin: 2% 10%;
   text-align: justify;
-  font-size: large;
+  font-size: 150%;
   font-weight:bold;
 }
 
 @media (max-width:1050px){
 
   body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     margin: 0;
   }
 
@@ -164,7 +164,7 @@ footer ul li a:hover {
   main section h3 {
     text-align: center;
     margin: 2%;
-    background-color: rgb(11, 7, 108);
+    background-color: rgb(0, 0, 0);
     color: white;
     cursor: pointer;
     padding: 1%;
@@ -187,7 +187,7 @@ footer ul li a:hover {
 @media (max-width:800px){
 
   body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     margin: 0;
   }
 
@@ -204,7 +204,7 @@ footer ul li a:hover {
   main section h3 {
     text-align: center;
     margin: 2%;
-    background-color: rgb(11, 7, 108);
+    background-color: rgb(0, 0, 0);
     color: white;
     cursor: pointer;
     padding: 1%;
@@ -227,11 +227,11 @@ footer ul li a:hover {
 @media (max-width: 520px){
 
   body{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     margin: 0;
   }
   header{
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
   }
   header section{
     display: block;
@@ -259,7 +259,7 @@ footer ul li a:hover {
   }
   main {
     padding-top: 1%;
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
   }
 
   footer ul li a span{
