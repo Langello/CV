@@ -146,6 +146,8 @@ footer ul li a:hover {
   margin: 2% 3%;
   font-size: 150%;
   font-weight:bold;
+  text-indent: 1%;
+  text-align: justify;
 }
 
 @media (max-width:1050px){
@@ -228,7 +230,7 @@ footer ul li a:hover {
   }
 
 }
-@media (max-width: 520px){
+@media (max-width: 560px){
 
   body{
     background-color: rgb(255, 255, 255);
@@ -268,6 +270,10 @@ footer ul li a:hover {
 
   footer ul li a span{
     display: none;
+  }
+
+  .sobreMi article p{
+    text-align: left;
   }
 
 }
