@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 header, main, footer{
   animation: text-appear 0.3s ease-in-out;
   color: rgb(0, 0, 0);
@@ -129,7 +133,7 @@ footer ul li a:hover {
   transition: background-color 0.3s ease-in;
 }
 
-/*CSS para sobreMi.html*/
+/*CSS para sobreMi.html
 .sobreMi h3{
   cursor: auto;
   justify-content: center;
@@ -148,7 +152,7 @@ footer ul li a:hover {
   text-indent: 1%;
   text-align: justify;
 }
-
+*/
 @media (max-width:1050px){
 
   body{
@@ -269,10 +273,6 @@ footer ul li a:hover {
 
   footer ul li a span{
     display: none;
-  }
-
-  .sobreMi article p{
-    text-align: left;
   }
 
 }
