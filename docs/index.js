@@ -25,10 +25,12 @@ function mostrarOcultarArticulo(articulo) {
     if (articulosVisibles[articulo]) {
       article.style.display = "inline";
       icon.classList.remove("fa-arrow-down");
+      icon.classList.remove("fa-beat");
       icon.classList.add("fa-arrow-up");
     } else {
       article.style.display = "none";
       icon.classList.remove("fa-arrow-up");
       icon.classList.add("fa-arrow-down");
+      icon.classList.add("fa-beat");
     }
   }
