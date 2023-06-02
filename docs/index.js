@@ -6,7 +6,6 @@ window.addEventListener("blur", () => {
 window.addEventListener("focus" , () => {
     document.title=titulo;
     document.getElementById('iconoTitulo').href = "contento.ico";
-
 })
 
 let articulosVisibles = {
